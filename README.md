@@ -32,9 +32,10 @@ On first run, the script loads all `.npy` files, trains a KNN classifier, and sa
 ## Project Structure
 
 ```
-gesture-recognition/
+Hand-Gesture-Recognition-System/
 │
-├──Gesture Recognition   # sample video
+├── Gesture Recognition   # sample video
+├── README.md
 ├── config.py            # All settings in one place (gestures, thresholds, paths)
 ├── main.py              # Step 2: train model and run live prediction
 ├── record_gesture.py    # Step 1: record samples for a gesture
